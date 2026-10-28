@@ -1,0 +1,139 @@
+LAB SHEET 05 - QUESTION 03
+ONLINE BOOKSHOP SYSTEM
+
+PART A - NOUN IDENTIFICATION
+
+Potential Nouns:
+
+1. Online Bookshop
+2. Product
+3. Book
+4. Magazine
+5. CD
+6. Price
+7. Title
+8. Author
+9. Number of Pages
+10. Artist
+11. Type
+12. Customer
+13. Registered Customer
+14. Personal Customer
+15. Business Customer
+16. Order
+17. Shipment
+18. Payment
+19. Delivery
+20. Invoice
+21. Credit Card
+22. Contact Information
+23. Personal Information
+24. Authentication
+25. Report
+
+
+PART B - CLASS IDENTIFICATION
+
+ACCEPTED CLASSES
+
+1. Product
+   Stores common product information.
+
+2. Book
+   Represents books sold by the bookshop.
+
+3. Magazine
+   Represents magazines sold by the bookshop.
+
+4. CD
+   Represents CDs sold by the bookshop.
+
+5. Customer
+   Stores customer information.
+
+6. PersonalCustomer
+   Represents personal customers.
+
+7. BusinessCustomer
+   Represents business customers.
+
+8. Order
+   Stores customer orders.
+
+9. Shipment
+   Manages shipments of ordered products.
+
+10. Payment
+    Records customer payments.
+
+11. Invoice
+    Represents invoices for business customers.
+
+12. CreditCard
+    Represents credit card payment details.
+
+13. Report
+    Represents product reports.
+
+
+REJECTED NOUNS AND REASONS
+
+1. Online Bookshop
+   Represents the overall system boundary.
+
+2. Price
+   Attribute of Product.
+
+3. Title
+   Attribute of Product.
+
+4. Author
+   Attribute of Book.
+
+5. Number of Pages
+   Attribute of Book or Magazine.
+
+6. Artist
+   Attribute of CD.
+
+7. Type
+   Attribute describing a product.
+
+8. Registered Customer
+   Registration status of Customer.
+
+9. Delivery
+   Process handled through Order and Shipment.
+
+10. Contact Information
+    Attributes of Customer.
+
+11. Personal Information
+    Attributes of Customer.
+
+12. Authentication
+    System behavior rather than a core entity.
+
+
+NOTE ON THE FIVE RULES
+
+The lab sheet asks for rejection using five rules,
+but does not provide their names or definitions.
+
+The decisions above use general class-identification
+reasoning. They should be checked against the
+five rules taught in the course.
+
+
+POSSIBLE CLASS RELATIONSHIPS
+
+1. Book, Magazine and CD inherit from Product.
+2. PersonalCustomer and BusinessCustomer inherit
+   from Customer.
+3. Customer places Orders.
+4. Order contains Products.
+5. Order may require multiple Shipments.
+6. Customer makes Payments.
+7. BusinessCustomer receives Invoices.
+
+END OF QUESTION 03
